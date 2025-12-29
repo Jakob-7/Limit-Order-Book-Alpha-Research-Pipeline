@@ -12,6 +12,7 @@ The pipeline covers the full lifecycle from raw event data to model-driven tradi
 
 ## Project Structure
 
+```text
 lob-alpha/
 ├── book/                 # Limit order book engine
 ├── features/             # Microstructure feature engineering
@@ -25,7 +26,7 @@ lob-alpha/
 │   └── run_experiment.py # Experiment runner
 ├── tests/                # Unit tests
 └── README.md
-
+```
 Raw market data is intentionally excluded from version control.
 
 ---
